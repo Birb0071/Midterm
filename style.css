@@ -1,0 +1,135 @@
+/* arabic */
+@font-face {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a1biKi2CikE0n8H9.woff) format('woff');
+    unicode-range: U+0600-06FF, U+0750-077F, U+0870-088E, U+0890-0891, U+0898-08E1, U+08E3-08FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a13iKi2CikE0n8H9.woff) format('woff');
+    unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/cairo/v28/SLXgc1nY6HkvangtZmpQdkhzfH5lkSs2SgRjCAGMQ1z0hOA-a1PiKi2CikE0nw.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+header {
+    background-color:antiquewhite;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+nav a{
+   
+    display: inline-block;
+   
+
+}
+
+nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    
+}
+ nav a{
+    transition: all 0.2s;
+ }
+ nav a:hover{
+    transform: scale(1.1);
+}
+
+main {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+/* index starts */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.home_front{
+
+    display: flex;
+}
+
+.logo{
+    transition: all 0.4s;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+/* index ends */
+
+/* menu starts */
+.menu_head{
+     text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+}
+.product_deatls{
+    border: 1px solid black;
+    border-radius: 5px;
+   place-items: center;
+   padding: 10px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.product_deatls:hover {
+    transform: scale(1.1);
+}
+
+.coming{
+     
+    text-align: center;
+}
+/* menu ends */
+
+/* contact starts */
+.contact{
+    display: flex;
+}
+.first{
+    position: relative;
+    bottom: -10px;
+    
+}
+/* contact ends */
+
+/* halal starts */
+.div{
+    text-align: center;
+}
+/* halal ends */
+
+footer {
+    font-size: small;
+    font-weight: 100px;
+    margin-left: 20px;
+    
+  }
